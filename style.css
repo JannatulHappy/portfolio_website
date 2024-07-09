@@ -17,13 +17,13 @@ body {
   font-size: 32px;
   font-weight: 800;
   line-height: 37px;
-margin-bottom: 24px;
+  margin-bottom: 24px;
   letter-spacing: 0%;
   text-align: center;
 }
 .second-title {
   color: rgba(13, 19, 33, 0.7);
- 
+  margin-top: 24px;
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
@@ -83,7 +83,7 @@ margin-bottom: 24px;
 }
 .banner-container > h1 {
   color: rgb(13, 19, 33);
-  
+
   font-size: 48px;
   font-weight: 800;
   line-height: 68px;
@@ -92,24 +92,119 @@ margin-bottom: 24px;
   text-align: center;
 }
 /* main styles start */
-main{
-    margin: 74px 148px 112px 148px;
+main {
+  margin: 74px 148px 112px 148px;
 }
-.development-section{
-    padding: 80px 97px;
+.development-section {
+  padding: 80px 97px;
 }
-.dev-part-1{
-    margin:30px 0px;
-    padding: 48px;
-    display: flex;
-    justify-content: space-between;
+.dev-part-1 {
+  margin: 30px 0px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
 }
-.dev-part-1 p{
-     color: rgb(13, 19, 33);
+.dev-part-1 p {
+  color: rgb(13, 19, 33);
   font-family: Azeret Mono;
   font-size: 16px;
   margin-top: 16px;
   margin-bottom: 38px;
   font-weight: 400;
+}
+/* current target styles start */
+.target-container{
+    margin: 110px 0px;
+}
+.card-container {
+  display: flex;
+  gap: 24px;
+}
+.html-part {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.css-part {
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.js-part {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+.card-container p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  margin-top: 16px;
+  font-weight: 400;
+}
+/* support section styles start */
+.support-container{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url("/assets//handshake.jpg");
+   /* background-position: center; */
+    padding: 64px 48px;
+}
+.support-container h1{
+    color: rgb(255, 255, 255);
+
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+}
+.support-container p{
+    color: rgb(255, 255, 255);
+margin-top: 16px;
+margin-bottom: 24px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+.form-container{
+    display: flex;
+    gap:16px;
+    justify-content: center;
+}
+.form-container input{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+width: 548px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
 
 }
+.form-container button{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 17px 20px 17px 20px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+/* footer styles starts */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+/* .icon{
+    gap:90px;
+} */
