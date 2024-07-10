@@ -82,7 +82,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("/assets//Hero-bg.png");
+  background-image: url("assets//Hero-bg.png");
   height: 652px;
 }
 
@@ -163,7 +163,7 @@ main {
       rgba(0, 0, 0, 0.2),
       rgba(0, 0, 0, 0.2)
     ),
-    url("/assets/handshake.jpg");
+    url("assets/handshake.jpg");
   padding: 64px 48px;
 }
 
