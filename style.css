@@ -157,6 +157,13 @@ main {
   margin-top: 16px;
   font-weight: 400;
 }
+/*  */
+
+.video{
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+}
 
 /* Support Section Styles */
 .support-container {
