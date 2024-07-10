@@ -82,7 +82,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("assets//Hero-bg.png");
+  background-image: url("assets/hero-bg.png");
   height: 652px;
 }
 
